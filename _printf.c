@@ -7,7 +7,7 @@
 int _printf(const char * const format, ...)
 {
 convert_match m[] = {
-{"%s", printf_string}, {"%c", print_character},
+{"%s", print_string}, {"%c", print_character},
 {"%%", printf_37},
 {"%i", printf_int}, {"%d", printf_dec}, {"%r", printf_srev},
 {"%R", printf_rot13}, {"%b", printf_bin}, {"%u", printf_unsigned},
