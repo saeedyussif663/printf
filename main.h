@@ -41,7 +41,7 @@ int _strlenc(const char *s);
 int rev_string(char *s);
 int _strlenc(const char *s);
 int printf_37(void);
-int print_character(va_list value)
+int print_character(va_list val);
 int printf_string(va_list val);
 int _putchar(char c);
 int _printf(const char *format, ...);
