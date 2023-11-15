@@ -23,7 +23,7 @@ for (j = 0; alpha[j] && !k; j++)
 if (s[i] == alpha[j])
 {
 _putchar(beta[j]);
-counter++;
+counter++;	
 k = 1;
 }
 }

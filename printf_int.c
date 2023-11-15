@@ -23,7 +23,7 @@ i++;
 }
 if (num > 0)
 {
-while (num / 10 != 0)
+while (num / 10 != 0)	
 {
 exp = exp * 10;
 num = num / 10;
