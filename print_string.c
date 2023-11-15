@@ -21,8 +21,9 @@ return (length);
 else
 {
 length = _strlen(x);
-for (i = 0; i < length; i++)	
+for (i = 0; i < length; i++)
 _putchar(x[i]);
 return (length);
 }
 }
+

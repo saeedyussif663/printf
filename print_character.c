@@ -13,3 +13,4 @@ a = va_arg(val, int);
 _putchar(a);
 return (1);
 }
+
