@@ -23,11 +23,11 @@ int (*f)();
 } convert_match;
 
 int printf_pointer(va_list val);
-int printf_hex_aux(unsigned long int num);
+int print_hex_aux(unsigned long int num);
 int printf_HEX_aux(unsigned int num);
 int printf_exclusive_string(va_list val);
 int printf_HEX(va_list val);
-int printf_hex(va_list val);
+int print_hex(va_list val)
 int print_octal(va_list val);
 int print_unsigned(va_list args);
 int print_binary(va_list val);
