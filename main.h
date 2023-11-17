@@ -25,7 +25,7 @@ int (*f)();
 int printf_pointer(va_list val);
 int printf_hex_aux(unsigned long int num);
 int printf_HEX_aux(unsigned int num);
-int printf_exclusive_string(va_list val);
+int print_excl_str(va_list val);
 int printf_HEX(va_list val);
 int printf_hex(va_list val);
 int print_octal(va_list val);

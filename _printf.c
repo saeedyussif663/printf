@@ -12,7 +12,7 @@ convert_match m[] = {
 {"%i", print_int}, {"%d", print_dec}, {"%r", printf_srev},
 {"%R", print_rot13}, {"%b", print_binary}, {"%u", print_unsigned},
 {"%o", print_octal}, {"%x", printf_hex}, {"%X", printf_HEX},
-{"%S", printf_exclusive_string}, {"%p", printf_pointer}
+{"%S", print_excl_str}, {"%p", printf_pointer}
 };
 
 va_list args;
