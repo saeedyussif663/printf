@@ -11,7 +11,7 @@ convert_match m[] = {
 {"%%", print_percent},
 {"%i", print_int}, {"%d", print_dec}, {"%r", printf_srev},
 {"%R", printf_rot13}, {"%b", print_binary}, {"%u", print_unsigned},
-{"%o", printf_oct}, {"%x", printf_hex}, {"%X", printf_HEX},
+{"%o", print_octal}, {"%x", printf_hex}, {"%X", printf_HEX},
 {"%S", printf_exclusive_string}, {"%p", printf_pointer}
 };
 
