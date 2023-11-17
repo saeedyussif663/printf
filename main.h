@@ -22,7 +22,7 @@ char *id;
 int (*f)();
 } convert_match;
 
-int printf_pointer(va_list val);
+int print_pointer(va_list val);
 int printf_hex_aux(unsigned long int num);
 int printf_HEX_aux(unsigned int num);
 int print_excl_str(va_list val);
