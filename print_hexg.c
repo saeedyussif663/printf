@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_hex -a function that prints a hex number.
+ * printf_hex -a function that prints a hex number.
  * @val: function parameter.
  * Return: count.
  */
-int print_hex(va_list val)
+int printf_hex(va_list val)
 {
 int i;
 int *arr;
