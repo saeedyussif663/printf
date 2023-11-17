@@ -10,7 +10,7 @@ convert_match m[] = {
 {"%s", print_string}, {"%c", print_character},
 {"%%", print_percent},
 {"%i", print_int}, {"%d", print_dec}, {"%r", printf_srev},
-{"%R", printf_rot13}, {"%b", printf_bin}, {"%u", printf_unsigned},
+{"%R", printf_rot13}, {"%b", print_binary}, {"%u", printf_unsigned},
 {"%o", printf_oct}, {"%x", printf_hex}, {"%X", printf_HEX},
 {"%S", printf_exclusive_string}, {"%p", printf_pointer}
 };
