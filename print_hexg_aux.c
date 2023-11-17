@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_hex_aux - prints an hexgecimal number.
- * @num: arguments.
+ * printf_hex_aux - prints an hexgecimal number.
+ * @num: function parameter.
  * Return: count.
  */
-int print_hex_aux(unsigned long int num)
+int printf_hex_aux(unsigned long int num)
 {
 long int i;
 long int *arr;
