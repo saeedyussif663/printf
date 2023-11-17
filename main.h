@@ -29,7 +29,7 @@ int printf_exclusive_string(va_list val);
 int printf_HEX(va_list val);
 int printf_hex(va_list val);
 int printf_oct(va_list val);
-int printf_unsigned(va_list args);
+int print_unsigned(va_list args);
 int print_binary(va_list val);
 int printf_srev(va_list args);
 int printf_rot13(va_list args);
