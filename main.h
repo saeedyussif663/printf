@@ -31,7 +31,7 @@ int printf_hex(va_list val);
 int print_octal(va_list val);
 int print_unsigned(va_list args);
 int print_binary(va_list val);
-int printf_srev(va_list args);
+int print_srev(va_list args);
 int print_rot13(va_list args);
 int print_int(va_list args);
 int print_dec(va_list args);

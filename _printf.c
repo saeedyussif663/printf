@@ -1,15 +1,15 @@
 #include "main.h"
 /**
- * _printf - is a function that selects the correct function to print.
- * @format: identifier to look for.
- * Return: the length of the string.
+ * _printf - is a function that selects .
+ * @format: function parameter
+ * Return: length.
  */
 int _printf(const char * const format, ...)
 {
 convert_match m[] = {
 {"%s", print_string}, {"%c", print_character},
 {"%%", print_percent},
-{"%i", print_int}, {"%d", print_dec}, {"%r", printf_srev},
+{"%i", print_int}, {"%d", print_dec}, {"%r", print_srev},
 {"%R", print_rot13}, {"%b", print_binary}, {"%u", print_unsigned},
 {"%o", print_octal}, {"%x", printf_hex}, {"%X", printf_HEX},
 {"%S", print_excl_str}, {"%p", print_pointer}

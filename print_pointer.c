@@ -3,7 +3,7 @@
 /**
  * print_pointer - a function that prints a hex num
  * @val: function parameter.
- * Return: cout.
+ * Return: count.
  */
 int print_pointer(va_list val)
 {
