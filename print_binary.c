@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_binary - a function that prints a binary number.
+ * print_binary - a function.
  * @val: parameter.
- * Return: 1 (Always).
+ * Return: Success 1 (Always).
  */
 int print_binary(va_list val)
 {
