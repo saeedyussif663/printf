@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_excl_str - a function that prints an exclusive string
+ * print_excl_str - a function.
  * @val: function parameter.
- * Return: length.
+ * Return:Success (length).
  */
 
 int print_excl_str(va_list val)
