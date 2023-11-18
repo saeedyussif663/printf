@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_pointer - a function that prints a hex num
+ * print_pointer - a function.
  * @val: function parameter.
- * Return: count.
+ * Return:SUccess (count).
  */
 int print_pointer(va_list val)
 {
