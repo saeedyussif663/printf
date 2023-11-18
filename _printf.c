@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _printf - is a function that selects .
+ * _printf - is a function that selects.
  * @format: function parameter
  * Return: length.
  */
@@ -16,6 +16,7 @@ convert_match m[] = {
 };
 
 va_list args;
+  
 int i = 0, j, len = 0;
 
 va_start(args, format);
@@ -26,6 +27,7 @@ Here:
 while (format[i] != '\0')
 {
 j = 13;
+
 while (j >= 0)
 {
 if (m[j].id[0] == format[i] && m[j].id[1] == format[i + 1])
@@ -43,4 +45,3 @@ i++;
 va_end(args);
 return (len);
 }
-
