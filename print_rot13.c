@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_rot13 - printf str 
+ * print_rot13 - printf str function 
  * @args: function parameter
  * Return: count
  *
@@ -8,7 +8,9 @@
 int print_rot13(va_list args)
 {
 int i, j, count = 0;
+  
 int k = 0;
+  
 char *s = va_arg(args, char*);
 char alpha[] = {"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"};
 char beta[] = {"nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM"};
