@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_character -a function that prints a character
+ * print_character -a function.
  * @val: function parameter.
- * Return: 1 always.
+ * Return: Success.
  */
 int print_character(va_list val)
 {
